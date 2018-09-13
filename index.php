@@ -59,6 +59,7 @@
                 <li>item</li>
                 <li>item</li>
             </ul>
+            <ul></ul>
         </footer>
     </main>
 </body>
