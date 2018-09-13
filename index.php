@@ -21,6 +21,7 @@
                 <li class="nav-item active">Home</li>
                 <li class="nav-item">About</li>
                 <li class="nav-item">Contact</li>
+                <li class="nav-item">Gallery</li>
             </ul>
         </nav>
     </div>
@@ -32,8 +33,19 @@
                 <header>
                     <h2>Technologies</h2>
                     <p>Tech sub heading</p>
-                </header>
 
+
+                </header>
+                    <ul>
+                        <li>HTML 5</li>
+                        <li>CSS3</li>
+                        <li>JQuery</li>
+                        <li>PHP</li>
+                        <li>Java</li>
+                        <li>SQL</li>
+                        <li>JavaScript</li>
+                        <li>VueJS</li>
+                    </ul>
                 <section>
 
                 </section>
@@ -59,7 +71,7 @@
                 <li>item</li>
                 <li>item</li>
             </ul>
-            <ul></ul>
+          
         </footer>
     </main>
 </body>
