@@ -1,4 +1,4 @@
-body,html{color: rgba(46, 46, 46, 0.9);margin: 0;padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+body,html{background-color:rgb(219, 219, 219);color: rgba(46, 46, 46, 0.9);margin: 0;padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 .header{
    position: relative;
     margin: 0;
@@ -7,11 +7,9 @@ body,html{color: rgba(46, 46, 46, 0.9);margin: 0;padding: 0; font-family: 'Segoe
     /* background-image: linear-gradient(lightgrey,lightblue); */
     background-image: url("../pexels-photo-633198.jpeg");
     background-attachment: fixed;
-    color: rgb(223, 223, 223);
+    color: rgb(236, 236, 236);
 }
-.header p{
-    color:rgba(212, 44, 44, 0.9);
-}
+
 p{
     font-weight: lighter;
     font-size: 1.5rem;
@@ -39,19 +37,31 @@ transform: translate(-50%,-50%);
 }
 
 .nav{
-    color:rgba(46, 46, 46, 0.9);
+   
+    width: 100%;
+    padding-top: 20px;
+background-color:rgba(245, 245, 245, 0.623);
     position: absolute;
- top: 10px;
- font-size:1.8rem;
- right: 50px;
+ top: 0;
+ font-size:1.5rem;
+ 
+}
+.nav-list{
+    margin-left:auto;
+}
+.nav-list:last-child{
+    margin-right: 50px;
 }
 .nav .nav-list .nav-item{
     display: inline;
-    margin: 0 15px;
+
+    margin:  12px;
 }
 .nav a{
     text-decoration:none;
+ 
     color: rgba(46, 46, 46, 0.9);
+    /* color: rgb(240, 240, 240); */
 }
 .padding-15{
     padding: 15px;
@@ -66,11 +76,19 @@ transform: translate(-50%,-50%);
     border-bottom:2px solid rgba(212, 44, 44, 0.9);
 
 }
-section{
+section, footer{
     padding: 20px;
 }
 section h2{
     font-size: 5.5rem;
+    text-align: center;
+}
+section p{
+    text-align: center;
+}
+
+.project{
+    background-color: whitesmoke;
 }
 
 .tech-item{
@@ -79,4 +97,33 @@ section h2{
     list-style-type: none;
     font-size: 1.5rem;
 
+}
+.tech-list{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.footer{
+    padding: 7%;
+    background-color: rgba(46, 46, 46, 0.9);
+}
+.footer ul li{
+list-style-type: none;
+font-size:1.6rem;
+margin: 8px;
+
+}
+
+.img{
+    width: 100%;
+
+
+}
+.row-edit .col{
+    overflow-y: hidden;
+    z-index: 1;
+}
+.row-edit{
+    z-index: 10;
+    height: 500px;
 }
