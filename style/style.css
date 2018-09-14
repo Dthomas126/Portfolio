@@ -6,7 +6,11 @@ body,html{color: rgba(46, 46, 46, 0.9);margin: 0;padding: 0; font-family: 'Segoe
     height: 100vh;
     /* background-image: linear-gradient(lightgrey,lightblue); */
     background-image: url("../pexels-photo-633198.jpeg");
+    background-attachment: fixed;
     color: rgb(223, 223, 223);
+}
+.header p{
+    color:rgba(212, 44, 44, 0.9);
 }
 p{
     font-weight: lighter;
@@ -38,12 +42,16 @@ transform: translate(-50%,-50%);
     color:rgba(46, 46, 46, 0.9);
     position: absolute;
  top: 10px;
- font-size:1.5rem;
+ font-size:1.8rem;
  right: 50px;
 }
 .nav .nav-list .nav-item{
     display: inline;
-    margin: 0 8px;
+    margin: 0 15px;
+}
+.nav a{
+    text-decoration:none;
+    color: rgba(46, 46, 46, 0.9);
 }
 .padding-15{
     padding: 15px;

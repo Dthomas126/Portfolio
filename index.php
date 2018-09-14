@@ -18,10 +18,10 @@
     </div>
         <nav role="navigation" class="nav ">
             <ul class="nav-list">
-                <li class="nav-item active">Home</li>
-                <li class="nav-item">About</li>
-                <li class="nav-item">Contact</li>
-                <li class="nav-item">Gallery</li>
+                <li class="nav-item active"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#">About</a></li>
+                <li class="nav-item"><a href="#">Contact</a></li>
+                <li class="nav-item"><a href="#">Gallery</a></li>
             </ul>
         </nav>
     </div>
