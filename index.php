@@ -36,15 +36,15 @@
 
 
                 </header>
-                    <ul>
-                        <li>HTML 5</li>
-                        <li>CSS3</li>
-                        <li>JQuery</li>
-                        <li>PHP</li>
-                        <li>Java</li>
-                        <li>SQL</li>
-                        <li>JavaScript</li>
-                        <li>VueJS</li>
+                    <ul class="tech-list">
+                        <li class="tech-item">HTML 5</li>
+                        <li class="tech-item">CSS3</li>
+                        <li class="tech-item">JQuery</li>
+                        <li class="tech-item">PHP</li>
+                        <li class="tech-item">Java</li>
+                        <li class="tech-item">SQL</li>
+                        <li class="tech-item">JavaScript</li>
+                        <li class="tech-item">VueJS</li>
                     </ul>
                 <section>
 

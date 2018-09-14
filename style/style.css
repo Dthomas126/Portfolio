@@ -57,6 +57,17 @@ transform: translate(-50%,-50%);
     border-bottom:2px solid rgba(212, 44, 44, 0.9);
 
 }
+section{
+    padding: 20px;
+}
 section h2{
     font-size: 5.5rem;
+}
+
+.tech-item{
+    
+    margin: 50px 0;
+    list-style-type: none;
+    font-size: 1.5rem;
+
 }
