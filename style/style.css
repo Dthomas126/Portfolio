@@ -1,4 +1,4 @@
-body,html{background-color:;color: rgba(46, 46, 46, 0.9);margin: 0;padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+body,html{background-color:;color: rgba(46, 46, 46, 0.9);margin: 0;padding: 0; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 .header{
    position: relative;
     margin: 0;
@@ -75,8 +75,9 @@ p{
 
 }
 section, footer{
-    z-index: 10;
-    padding: 20px;
+   
+
+    padding: 100px;
 }
 section h2{
     font-size: 5.5rem;
@@ -88,6 +89,8 @@ section p{
 
 .project{
     background-color: whitesmoke;
+    position: relative;
+    z-index: 10;
 }
 
 .tech-item{
@@ -98,7 +101,7 @@ section p{
 
 }
 .tech-list{
-    width: 60%;
+   
     margin: 0 auto;
 }
 
@@ -119,13 +122,14 @@ margin: 8px;
     
     
 }
-.col{
+.row-edit .col{
     height: 100%;
     overflow: hidden;
-    transition: overflow .5s;
+    transition: overflow 1s;
 }
-.col:hover{
-    overflow: scroll;
+.row-edit  .col:hover{
+   
+    overflow-y: scroll;
 }
 .row-edit{
    
@@ -136,5 +140,46 @@ margin: 8px;
     color: antiquewhite;
 }
 .tech{
+    position: relative;
+    background-color:rgb(235, 235, 235);
+}
+.about{
+  
+   width: 80%;
+    margin: 0 auto;
+   text-align: justify;
+   line-height: 1.5cm;
+
+}
+.about p{
+    padding: 15px;
+}
+
+.about-img{
+    /* clip-path: ellipse( 100% 100% at 10% 10%); */
+    /* border-radius: 8px; */
+    -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    width: 100%;
+    height: auto;
+}
+
+.puzzel{
+   
+    width: 200px;
+    height: 200px;
+position: absolute;
+
+transform: rotate(270deg);
+-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);}
+.project .puzzel{
+    bottom:-8%;
+    left: 45%;
+    background-color: whitesmoke;
+}
+.tech .puzzel{
+    bottom:-10%;
+    left: 45%;
     background-color:rgb(235, 235, 235);
 }

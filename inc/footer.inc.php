@@ -1,10 +1,13 @@
 <footer class="footer" id="footer">
             <h3>Footer Title</h3>
-            <ul>
-                <li>item</li>
-                <li>item</li>
-                <li>item</li>
-            </ul>
+            <div class="row">
+
+                    <p>Name: Devin Thomas</p>
+                    <p>Email: Dthom94@gmail.com</p>
+                    <p>Phone: (210) 488-0892</p>
+            </div>
+
+
           
         </footer>
     </main>
