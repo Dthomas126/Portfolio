@@ -16,6 +16,8 @@ p{
 }
 
 .logo h1{
+    width: 100%;
+    overflow-wrap: break-word;
     color: rgba(46, 46, 46, 0.9);
     font-weight: 600;
     margin: 0;
@@ -32,7 +34,7 @@ p{
     left: 37%;
     transform: translate(-50%,-50%);
 }
-.wht.active{
+.wht.rd-btm{
     border-bottom: 2px solid rgb(255, 44, 44);
 }
 .logo p{
@@ -69,11 +71,6 @@ p{
 
 }
 
-.active{
-    /* border-bottom:2px solid rgba(212, 44, 44, 0.9); */
-    border-bottom:2px solid antiquewhite;
-
-}
 section, footer{
    
 
@@ -106,14 +103,20 @@ section p{
 }
 
 .footer{
-    padding: 7%;
-    background-color: rgba(46, 46, 46, 0.9);
+   
+    background-color: rgb(236, 236, 236);
+}
+.footer p{
+    font-size: 1.2rem
 }
 .footer ul li{
 list-style-type: none;
-font-size:1.6rem;
-margin: 8px;
+font-size:1.2rem;
+margin: 4px;
 
+}
+.footer ul li a{
+    color: rgba(46, 46, 46, 0.9);
 }
 
 .img{
@@ -122,12 +125,12 @@ margin: 8px;
     
     
 }
-.row-edit .col{
+.row-edit .col-lg-3{
     height: 100%;
     overflow: hidden;
     transition: overflow 1s;
 }
-.row-edit  .col:hover{
+.row-edit  .col-lg-3:hover{
    
     overflow-y: scroll;
 }
@@ -140,6 +143,7 @@ margin: 8px;
     color: antiquewhite;
 }
 .tech{
+    
     position: relative;
     background-color:rgb(235, 235, 235);
 }
@@ -182,4 +186,31 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);}
     bottom:-10%;
     left: 45%;
     background-color:rgb(235, 235, 235);
+}
+svg{
+    fill: black;
+    width: 50px;
+    height: 50px;
+    margin: 0 8px;
+}
+ol li{
+    display: inline;
+    list-style-type: none;
+}
+
+@media (max-width: 1200px){
+    .logo h1{
+        font-size: 8rem;
+    }
+}
+
+@media (max-width: 900px){
+    .logo h1{
+        font-size: 3.8rem;
+    }
+    .logo{
+        position: absolute;
+        left: 50%;
+    }
+ 
 }

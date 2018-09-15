@@ -16,16 +16,32 @@
     <header role="banner" class="header">
         <div class="contain">
         <div class="logo ">
-        <h1><span class="wht active">WEB</span> DEVELOPER</h1>
+        <h1><span class="wht rd-btm">WEB</span> DEVELOPER</h1>
         <p>Devin Thomas</p>
     </div>
-        <nav role="navigation" class="nav ">
+        <!-- <nav role="navigation" class="nav ">
             <ul class="nav-list">
-                <li class="nav-item active page"><a href="#">Home</a></li>
-                <li class="nav-item"><a href="#">About</a></li>
-                <li class="nav-item"><a href="#">Contact</a></li>
-                <li class="nav-item"><a href="#">Gallery</a></li>
+                <li class="nav-item active page"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+                <li class="nav-item"><a href="#projects">Projects</a></li>
+                <li class="nav-item"><a href="#languages">Languages</a></li>
             </ul>
-        </nav>
+        </nav> -->
+
+
+        <nav class="navbar navbar-expand-lg navbar-light ">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#contact">Contact</a>
+      <a class="nav-item nav-link" href="#projects">Projects</a>
+      <a class="nav-item nav-link" href="#languages">Language</a>
+    </div>
+  </div>
+</nav>
     </div>
     </header>
