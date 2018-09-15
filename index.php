@@ -5,7 +5,22 @@
 ?>
     <main role="main" id="main">
         <article role="article" id="article">
-            <section class="section">
+        <section class="section project">
+                <header>
+                        <h2>Projects</h2>
+                        <p>Project sub heading</p>
+                    </header>
+    
+                    <section>
+                        <div class="row row-edit">
+                            <div class="col "><img class="img" src="images/architech.png" alt="Image"/></div>
+                            <div class="col "><img class="img" src="images/rockband.png" alt="Image"/></div>
+                            <div class="col"><img class="img" src="images/workout.png" alt="Image"/></div>
+                        </div>
+                    </section>
+        </section>
+
+            <section class="section tech">
                     
                 <header>
                     <h2>Languages</h2>
@@ -39,26 +54,11 @@
   <div class="progress-bar bg-dark" style="width:30%"></div>
 </div></li>
                     </ul>
-                <section>
+             
 
-                </section>
+   
 
-        </section>
-        <section class="section project">
-                <header>
-                        <h2>Projects</h2>
-                        <p>Project sub heading</p>
-                    </header>
-    
-                    <section>
-                        <div class="row row-edit">
-                            <div class="col "><img class="img" src="images/architech.png" alt="Image"/></div>
-                            <div class="col "><img class="img" src="images/rockband.png" alt="Image"/></div>
-                            <div class="col"><img class="img" src="images/workout.png" alt="Image"/></div>
-                        </div>
-                    </section>
-        </section>
-
+</section>
 
         </article>
         <?php

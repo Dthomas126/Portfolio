@@ -21,7 +21,7 @@
     </div>
         <nav role="navigation" class="nav ">
             <ul class="nav-list">
-                <li class="nav-item active"><a href="#">Home</a></li>
+                <li class="nav-item active page"><a href="#">Home</a></li>
                 <li class="nav-item"><a href="#">About</a></li>
                 <li class="nav-item"><a href="#">Contact</a></li>
                 <li class="nav-item"><a href="#">Gallery</a></li>
