@@ -9,7 +9,7 @@
             
                 <header>
                         <h2>PROJECTS</h2>
-                        <p>Project sub heading</p>
+                       
                     </header>
     
               

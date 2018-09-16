@@ -19,13 +19,7 @@
                 </div>
                   <div class="col">
                       <h3>Social Links</h3>
-                      <!-- <ul>
-                          <li><a href="#" class="facebook"></a></li>
-                          <li><a href="#" class="twitter"></a></li>
-                          <li><a href="#" class="instagram"></a></li>
-                          <li><a href="#" class="linkedin"></a></li>
-
-                      </ul> -->
+                 
 
                       <ol>
                             <li class="instagram" title="instagram">
