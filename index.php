@@ -5,7 +5,8 @@
 ?>
     <main role="main" id="main">
         <article role="article" id="article">
-        <section class="section project" id="projects">
+        <section class="section project " id="projects">
+            
                 <header>
                         <h2>PROJECTS</h2>
                         <p>Project sub heading</p>
@@ -13,9 +14,9 @@
     
               
                         <div class="row row-edit">
-                            <div class="col-lg-3 col-md-12  "><img class="img" src="images/architech.png" alt="Image"/></div>
-                            <div class="col-lg-3 col-md-12 "><img class="img" src="images/rockband.png" alt="Image"/></div>
-                            <div class="col-lg-3 col-md-12"><img class="img" src="images/workout.png" alt="Image"/></div>
+                            <div class="col-lg-4 col-md-12 "><img class="img" src="images/architech.png" alt="Image"/></div>
+                            <div class="col-lg-4 col-md-12 "><img class="img" src="images/rockband.png" alt="Image"/></div>
+                            <div class="col-lg-4 col-md-12"><img class="img" src="images/workout.png" alt="Image"/></div>
                         </div>
                    
                     <div class="puzzel"></div>

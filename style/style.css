@@ -72,9 +72,9 @@ p{
 }
 
 section, footer{
-   
+   height: auto;
 
-    padding: 100px;
+    padding: 10%;
 }
 section h2{
     font-size: 5.5rem;
@@ -125,12 +125,12 @@ margin: 4px;
     
     
 }
-.row-edit .col-lg-3{
+.row-edit .col-lg-4.col-md-12{
     height: 100%;
     overflow: hidden;
     transition: overflow 1s;
 }
-.row-edit  .col-lg-3:hover{
+.row-edit  .col-lg-4:hover{
    
     overflow-y: scroll;
 }
@@ -205,6 +205,10 @@ ol li{
 }
 
 @media (max-width: 900px){
+    .about{
+        width: 90%;
+        padding: 20px;
+    }
     .logo h1{
         font-size: 3.8rem;
     }
@@ -212,5 +216,10 @@ ol li{
         position: absolute;
         left: 50%;
     }
- 
+    .img{
+        height: auto;
+    }
+    .project{
+        overflow: scroll;
+    }
 }
