@@ -5,7 +5,7 @@
 ?>
     <main role="main" id="main">
         <article role="article" id="article">
-        <section class="section project " id="projects">
+        <section class="container-fluid project" id="projects">
             
                 <header>
                         <h2>PROJECTS</h2>
@@ -14,15 +14,15 @@
     
               
                         <div class="row row-edit">
-                            <div class="col-lg-4 col-md-12 "><img class="img" src="images/architech.png" alt="Image"/></div>
-                            <div class="col-lg-4 col-md-12 "><img class="img" src="images/rockband.png" alt="Image"/></div>
-                            <div class="col-lg-4 col-md-12"><img class="img" src="images/workout.png" alt="Image"/></div>
+                            <div class="scroll"><img class="img" src="images/architech.png" alt="Image"/></div>
+                            <div class="scroll"><img class="img" src="images/rockband.png" alt="Image"/></div>
+                            <div class="scroll"><img class="img" src="images/workout.png" alt="Image"/></div>
                         </div>
                    
                     <div class="puzzel"></div>
         </section>
 
-            <section class="section tech" id="languages">
+            <section class="container-fluid tech" id="languages">
                     <div class="puzzel"></div>
                 <header>
                     <h2>LANGUAGES</h2>
@@ -62,7 +62,7 @@
    
                     <div class="puzzel"></div>
 </section>
-<section class="about" id="about">
+<section class="container-fluid about" id="about">
     <h2>ABOUT ME</h2>
     <div class="row">
     <div class="col-lg-6 col-md-12 col-sm-12">

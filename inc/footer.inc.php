@@ -1,6 +1,6 @@
 <footer class="footer" id="footer">
             
-            <div class="row">
+            <div class="row-edit">
                 <div class="col">
                         <h3>Quick Links</h3>
                       <ul>

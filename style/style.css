@@ -118,10 +118,12 @@ margin: 4px;
 .footer ul li a{
     color: rgba(46, 46, 46, 0.9);
 }
-
+.scroll{
+    overflow-y: scroll;
+}
 .img{
     width: 100%;
-   
+   height: auto;
     
     
 }
@@ -135,8 +137,11 @@ margin: 4px;
     overflow-y: scroll;
 }
 .row-edit{
-   
-    height: 500px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+   grid-template-rows: 500px;
+   grid-auto-rows: 1fr;
     
 }
 .page{
@@ -169,22 +174,22 @@ clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
 
 .puzzel{
-   
-    width: 200px;
-    height: 200px;
+    bottom:-4%;
+    width: 100px;
+    height: 100px;
 position: absolute;
-
+left: 45%;
 transform: rotate(270deg);
 -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);}
 .project .puzzel{
-    bottom:-8%;
-    left: 45%;
+   
     background-color: whitesmoke;
+ 
 }
 .tech .puzzel{
-    bottom:-10%;
-    left: 45%;
+ 
+   
     background-color:rgb(235, 235, 235);
 }
 svg{
@@ -205,21 +210,32 @@ ol li{
 }
 
 @media (max-width: 900px){
-    .about{
-        width: 90%;
-        padding: 20px;
+    .logo{
+        top:50%;
+        left: 50%;
+        
     }
-    .logo h1{
+    
+   .header h1{
+       
         font-size: 3.8rem;
     }
-    .logo{
-        position: absolute;
-        left: 50%;
+    section h2{
+        font-size: 3rem;
     }
-    .img{
-        height: auto;
-    }
-    .project{
-        overflow: scroll;
-    }
+   .row-edit{
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-template-rows: 300px;
+       grid-auto-rows: 300px;
+   }
+   p{
+       font-size: 1.2rem;
+   }
+   .about{
+       width: 90%;
+   }
+   .puzzel{
+       bottom: -4.5%;
+   }
 }
