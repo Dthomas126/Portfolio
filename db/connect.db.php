@@ -21,7 +21,7 @@ class Database{
     }
 
     public function addContact($name,$email,$phone,$comment){
-        $f_name = filter_var($name,FILTER_SANITIZE_STRING);
+        $f_name = (filter_var($name,FILTER_SANITIZE_STRING));
         $f_email = filter_var($email,FILTER_SANITIZE_EMAIL);
         $f_phone = filter_var($phone,FILTER_SANITIZE_STRING);
         $f_comment = filter_var($comment,FILTER_SANITIZE_STRING);
@@ -31,7 +31,7 @@ class Database{
 
         }else{
             try{
-                $sql = "INSERT INTO contact (name,email, phone,comment) VALUES('$name','$email','$phone','$comment')";
+                $sql = "INSERT INTO contact (name,email, phone,comment) VALUES('$f_name','$f_email','$f_phone','$f_comment')";
                $result =  $this->getConnection()->prepare($sql);
               $result->execute();
                 echo "database has been updated";
@@ -50,4 +50,4 @@ class Database{
 
 $conn = new Database;
 
-echo $conn->addContact("James","JamesBond@email.com","444-444-4444","here is a comment");
+echo $conn->addContact("<script>James</script>","JamesBond@email.com","444-444-4444","here is a comment");
