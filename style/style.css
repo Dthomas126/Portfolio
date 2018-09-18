@@ -1,4 +1,4 @@
-body,html{background-color:;color: rgba(46, 46, 46, 0.9);margin: 0;padding: 0; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+body,html{color: rgba(46, 46, 46, 0.9);margin: 0;padding: 0; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 .header{
    position: relative;
     margin: 0;
@@ -71,7 +71,7 @@ p{
 
 }
 
-section, footer{
+section{
    height: auto;
 
     padding: 10%;
@@ -200,6 +200,10 @@ svg{
 ol li{
     display: inline;
     list-style-type: none;
+}
+
+.contact{
+    color: rgb(236, 236, 236);
 }
 
 @media (max-width: 1200px){

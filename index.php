@@ -74,6 +74,30 @@
     </div>
 </div>
 </section>
+<section class="container-fluid bg-dark">
+
+    <form class="container contact" action="" method="POST">
+        <h2>CONTACT ME</h2>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" placeholder="Name..">
+        </div>
+        <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="text" class="form-control" placeholder="Email..">
+            </div>
+            <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="text" class="form-control" placeholder="Name..">
+                </div>
+                <div class="form-group">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" placeholder="Comment.."></textarea>
+                    </div>
+                    <button class="btn w-100 btn-default btn-lg">Send Contact Info</button>
+    </form>
+</section>
+
         </article>
         <?php
     include './inc/footer.inc.php';
